@@ -2,6 +2,8 @@
 
 Image classification on the **BloodMNIST** dataset (8-class blood cell classification, 28×28 RGB images) using a variety of deep learning methods implemented in PyTorch.
 
+![Sample Images](pictures/sampleimages.png)
+
 ## Implemented Methods
 
 ### Custom CNNs
@@ -38,13 +40,11 @@ Image classification on the **BloodMNIST** dataset (8-class blood cell classific
 - **Adam Optimizer** — adaptive learning rate optimization (learning rates from 1e-4 to 5e-3)
 - **Cosine Annealing LR Scheduler** — dynamic learning rate decay over training epochs
 
-### Evaluation
+### Results
 
-- **Confusion Matrix** — per-class prediction accuracy visualization
-- **Classification Report** — precision, recall, and F1-score per class
-- **Training / Validation / Test Curves** — epoch-wise loss and accuracy tracking
+![Final Model Results](pictures/results.png)
 
 ## Repository Structure
 
 - `Code.ipynb` — full implementation and experiments
-- `Project.pdf` — project report
+- `Project.pdf` — project task
